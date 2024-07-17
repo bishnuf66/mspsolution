@@ -3,43 +3,37 @@
 @tailwind utilities;
 
 
-/* styles/global.css */
 
-/* Define a class or target an element */
 .bg-div1 {
-  background-image: url('/city-bg1.jpg'); /* Adjust the path as per your image location */
+  background-image: url('/city-bg1.jpg'); 
   background-size: cover;
   background-position: center;
-  min-height: 300px; /* Adjust as needed */
-  /* Add more styles if necessary */
+  min-height: 300px; 
 }
 .bg-div2 {
-  background-image: url('/city-bg2.jpg'); /* Adjust the path as per your image location */
+  background-image: url('/city-bg2.jpg'); 
   background-size: cover;
   background-position: center;
-  min-height: 300px; /* Adjust as needed */
-  /* Add more styles if necessary */
+  min-height: 300px; 
 }
 .bg-div3 {
-  background-image: url('/city-bg3.jpg'); /* Adjust the path as per your image location */
+  background-image: url('/city-bg3.jpg'); 
   background-size: cover;
   background-position: center;
-  min-height: 300px; /* Adjust as needed */
-  /* Add more styles if necessary */
+  min-height: 300px; 
 }
 .bg-login {
-  background-image: url('/login.png'); /* Adjust the path as per your image location */
+  background-image: url('/login.png'); 
   background-size: cover;
   background-position: center;
-  min-height: 200px; /* Adjust as needed */
-  /* Add more styles if necessary */
+  min-height: 200px; 
 }
 
 .custom-checkbox {
-  width: 20px;
-  height: 20px;
-  border: 2px solid #ff6b00; /* orange color */
-  border-radius: 4px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid white; 
+  border-radius: 1px;
   appearance: none;
   -webkit-appearance: none;
   outline: none;
@@ -47,6 +41,6 @@
 }
 
 .custom-checkbox.filled {
-  background-color: #ff6b00; /* orange color */
+  background-color: white;
 }
 
